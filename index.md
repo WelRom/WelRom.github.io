@@ -11,7 +11,7 @@ Zunächst wurde die Frauenberg Ruine mit eine DJI mini 2 händisch überflogen. 
 
 Hierfür wurde die Ruine wie in dem Screenshot zu sehen als *zone of interest* kategorisiert. Dies ist mit der Funktion möglich.
 
-<img src="/images/anleitung_volume/media/image1.png" style="width:6.3in;height:3.43284in" />
+<img src="/images/anleitung_volume/image1.png" style="width:6.3in;height:3.43284in" />
 
 Im nächsten Schritt kann über den Reiter *Tools \>\> Plan Misson* Ein Flugplan erstellt werden.
 
