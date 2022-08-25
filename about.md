@@ -1,4 +1,5 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Auf dieser Seite werden die Ergebnisse einer Teilgruppe von Studierenden des Mikrofernerkundungskurs am Fachbereich Geographie der Philipps-Universität Marburg geteilt.
+
 
