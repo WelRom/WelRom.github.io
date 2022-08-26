@@ -139,46 +139,7 @@ Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausge
 
 <img src="/images/anleitung_volume/24.png" style="width:4.52083in;height:1.46875in" />
 
-body {
-  padding:0;
-  margin: 0;
-}
 
-.canvas,
-.container,
-.container-blocker {
-  width: 100%;
-  height: 900px;
-}
-
-.container {
-  margin-top: -50px;
-  margin-bottom:-50px;
-}
-
-.container,
-.container-blocker {
-  overflow:hidden;
-  position: absolute;
-  display: block;
-  height:645px
-}
-
-.container-blocker {
-  z-index: 1;
-  background-color: rgba(0,0,0,0);
-}
-
-.container p {
-  font-size: 72px;
-  color: #fff;
-  font-weight: 100;
-  font-family: "Open Sans", Arial, helvetica, sans-serif;
-  margin: 0 auto;
-  margin-top: 278px;
-  text-align: center;
-  z-index: 2;
-}
 
 
 # Tipps für erfolgreiche Durchführung
