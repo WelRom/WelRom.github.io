@@ -139,7 +139,14 @@ Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausge
 
 <img src="/images/anleitung_volume/24.png" style="width:4.52083in;height:1.46875in" />
 
-<div class="sketchfab-embed-wrapper"> <iframe title="model" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/97475298de2945a989f3c98c91e146b1/embed"> </iframe> </div>
+<div class="container">
+ 
+  <!-- change overlay text -->
+  <div class="container-blocker"><p></p></div>
+ 
+  <iframe class="canvas" src="[https://sketchfab.com/models/ab07b1b941604e31bfd9fdf8a0f8e357/embed?autospin=0.05&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0](https://sketchfab.com/models/97475298de2945a989f3c98c91e146b1/embed)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+  
+</div>
 
 # Tipps für erfolgreiche Durchführung
 
