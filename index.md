@@ -101,7 +101,7 @@ Nun weist man den Canupo-Klassen die Werte aus den vorheringen Klassifizierungen
 
 Nach einer kurzen Arbeitsphase erscheint ein neues Fenster:
 
-<img src="/images/anleitung_volume/image16.png" style="width:4.07861in;height:3.29993in" />
+<img src="/images/anleitung_volume/26.png" style="width:4.07861in;height:3.29993in" />
 
 Hier zeigt das Plugin wie viele der Bildpunkte durch die vorher ausgewählten Bildausschnitte erfasst wurden und wie eindeutig die Trennlinie dabei zwischen den Objekten ist. Unter *statistics* kann man sich weitere Hintergründe dazu anschauen.
 
@@ -119,7 +119,7 @@ Nun wird für alle Bildpunkte der Wert nach dem vorher definierten Filter errech
 
 Das Ergebnis zeigt die automatisch errechneten Bildpunkte mit den zwei Werteklassen. Diese werden zur besseren Sichtbarkeit in kontrastreichen Farben abgebildet. Durch eine abschließende Extraktion der Bildpunkte mit dem vorher festgelegten, bestimmten Wert erhält man die endgültige Punktwolke.
 
-<img src="/images/anleitung_volume/image19.png" style="width:3.72407in;height:2.30045in" />
+<img src="/images/anleitung_volume/image25.png" style="width:3.72407in;height:2.30045in" />
 
 <img src="/images/anleitung_volume/image20.png" style="width:6.3in;height:0.51667in" />
 
