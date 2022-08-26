@@ -131,11 +131,17 @@ Diese kann dann zur weiteren Volumenberechnung als *.ply-Datei* speichern, um si
 
 Die Arbeitsschritte in CloudCompare waren nötig, damit die Dense Cloud gereinigt und clean ist. Nun sind die störenden Bildpunkte soweit es geht entfernt worden und übrig bleibt die „raw Ruine“. Damit aus der Punktwolke ein geschlossenes Modell wird, dessen Volumen bestimmt werden kann wird zunächst ein Mesh erstellt. Anschlißend müssen etwaige vorhandene Löcher mit *close holes* durch Interpolation geschlossen. Abschließend kann als letzter Schritt das Volumen errechnet werden:
 
+
+
+<div class="sketchfab-embed-wrapper"> <iframe title="model" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/97475298de2945a989f3c98c91e146b1/embed"> </iframe> </div>
+
 # Tipps für erfolgreiche Durchführung
 
 Besondere Probleme bei der Erstellung einer geigneten Pointclound sind aufgetreten durch Schattenwurf und windige Verhältnisse. Es ist zu Empfhelen bei dispersen Lichtverhältnisse und minimalem Wind fliegen zu gehen. Hierdurch wird die Berechnung der Pointcloud deutlich homogener, was die anschließende Volumenberechnung stark vereinfacht.
 
 In Agisoft müssen in einem der letzten Schritte vor der eigentlichen Berechnung die Löcher geschlossen werden. Bei hohem Schattenwurf wird das Model nicht ganz geschlossen und es entstehen offene Stellen, welche mithilfe von dem vorgestellten verfahren ungenau interpoliert werden müssen.
+
+
 
 # Verweise
 
