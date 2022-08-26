@@ -133,10 +133,9 @@ Die Arbeitsschritte in CloudCompare waren nötig, damit die Dense Cloud gereinig
 
 <img src="/images/anleitung_volume/22.png" style="width:4.52083in;height:1.46875in" />
 
+
 Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausgegeben werden. 
 
-
-<img src="/images/anleitung_volume/23.png" style="width:4.52083in;height:1.46875in" />
 
 <img src="/images/anleitung_volume/24.png" style="width:4.52083in;height:1.46875in" />
 
