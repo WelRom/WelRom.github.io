@@ -5,7 +5,7 @@ Die folgende Arbeit soll eine Möglichkeit zur Volumenberechnung von komplexen d
 
 Genutzt werden könnte das aufgezeigte Verfahren für eine Changedetection von historischen Gebäuden, oder aber zur prozentualen Bestimmung einer Gesteinszusammensetzung eines historischen Objekts.
 
-Zunächst wurde die Frauenberg Ruine mit einer DJI Mini 2 händisch überflogen. Ziel war es, ein schemenhaftes Model der Ruine anzufertigen, um mit Agisoft einen reproduzierbaren Flugplan für Detailaufnahmen zu erstellen. Einen Flugplan auf Basis des Models zu erstellen, ermöglicht ein relativ umfassendes dreidimensionales Abfliegen von komplexen Strukturen und Objekten.
+Zunächst wurde die Frauenberg Ruine mit einer DJI Mini 2 händisch überflogen. Ziel war es, ein schemenhaftes Modell der Ruine anzufertigen, um mit Agisoft einen reproduzierbaren Flugplan für Detailaufnahmen zu erstellen. Einen Flugplan auf Basis des Modells zu erstellen, ermöglicht ein relativ umfassendes dreidimensionales Abfliegen von komplexen Strukturen und Objekten.
 
 # Optimierte Flugplanung via Agisoft und Litchi
 
@@ -149,7 +149,7 @@ Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausge
 
 Besondere Probleme bei der Erstellung einer geeigneten Pointclound sind durch Schattenwurf und windige Verhältnisse aufgetreten. Bei dispersen Lichtverhältnisse und minimalem Wind sollte sohin geflogen werden. Hierdurch wird die Berechnung der Pointcloud deutlich homogener, was die anschließende Volumenberechnung stark vereinfacht.
 
-In Agisoft müssen in einem der letzten Schritte, vor der eigentlichen Berechnung, die Löcher geschlossen werden. Bei hohem Schattenwurf wird das Model nicht ganz geschlossen und es entstehen offene Stellen, welche mithilfe des vorgestellten Verfahrens ungenau interpoliert werden müssen.
+In Agisoft müssen in einem der letzten Schritte, vor der eigentlichen Berechnung, die Löcher geschlossen werden. Bei hohem Schattenwurf wird das Modell nicht ganz geschlossen und es entstehen offene Stellen, welche mithilfe des vorgestellten Verfahrens ungenau interpoliert werden müssen.
 
 
 
