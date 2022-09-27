@@ -53,7 +53,7 @@ Die .laz-Datei öffnet man dann in CloudCompare über *File \>\> open \>\> Datei
 
 <img src="/images/anleitung_volume/image8.png" style="width:4.12304in;height:2.91685in" />
 
-Nun sollte die Datei erfolgreich eingeladen sein. Im nächsten Schritt kann man nun das jeweilige Objekt etwas genauer ausschneiden – dadurch minimiert man potentielle Fehler bei der späteren Klassifizierung. Dieser Schritt funktioniert theoretisch auch mit Agisoft, ist jedoch vom Handling angenehmer in CloudCompare. Für uns war dieser Schritt ohnehin unausweichlich, da die Pixelfarbe des Bodens um die Ruine herum sehr stark der Ruine selbst ähnelte. Eine Klassifizierung der Ruine beinhaltete also stets den umliegenden Boden, so dass wir diesen grob entfernten. Dazu wählt man die Schere in der Konsole aus und wählt mit Linksklick ein Polygon aus. Beendet wird das Polygon mit einem Rechtsklick und einem Klick auf Segment in.
+Nun sollte die Datei erfolgreich eingeladen sein. Im nächsten Schritt kann man nun das jeweilige Objekt etwas genauer ausschneiden – dadurch minimiert man potentielle Fehler bei der späteren Klassifizierung. Dieser Schritt funktioniert theoretisch auch mit Agisoft, ist jedoch vom Handling angenehmer in CloudCompare. Für uns war dieser Schritt ohnehin unausweichlich, da die Pixelfarbe des Bodens um die Ruine herum der Ruine selbst stark ähnelte. Eine Klassifizierung der Ruine beinhaltete also stets den umliegenden Boden, so dass wir diesen grob entfernten. Dazu wählt man die Schere in der Konsole aus und wählt mit Linksklick ein Polygon aus. Beendet wird das Polygon mit einem Rechtsklick und einem Klick auf Segment in.
 
 *Schere \>\> Polygon mit Linksklick erstellen \>\> Polygon mit Rechtsklick abschließen \>\> Segment in*
 
