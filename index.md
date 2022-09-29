@@ -119,7 +119,7 @@ Nun wird für alle Bildpunkte der Wert des vorher definierten Filters errechnet.
 
 Das Ergebnis zeigt die automatisch errechneten Bildpunkte mit den zwei Werteklassen. Diese werden zur besseren Sichtbarkeit in kontrastreichen Farben abgebildet. Durch eine abschließende Extraktion der Bildpunkte mit dem vorher festgelegten, bestimmten Wert erhält man die endgültige Punktwolke.
 
-<img src="/images/anleitung_volume/25.png" style="width:3.72407in;height:2.30045in" />
+<img src="/images/anleitung_volume/25.png" style="width:6.72407in;height:2.30045in" />
 
 <img src="/images/anleitung_volume/image20.png" style="width:6.3in;height:0.51667in" />
 
