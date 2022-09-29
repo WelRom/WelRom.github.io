@@ -131,7 +131,7 @@ Diese kann dann zur weiteren Volumenberechnung als *.ply-Datei* gespeichert werd
 
 Die Arbeitsschritte in CloudCompare waren nötig, damit die Dense Cloud gereinigt und clean ist. Nun sind die störenden Bildpunkte soweit es geht entfernt worden und übrig bleibt die „raw Ruine“. Damit aus der Punktwolke ein geschlossenes Modell wird, dessen Volumen bestimmt werden kann wird zunächst ein Mesh erstellt. Anschließend müssen etwaige vorhandene Löcher mit *close holes* durch Interpolation geschlossen werden. Nun kann als letzter Schritt das Volumen errechnet werden:
 
-<img src="/images/anleitung_volume/22.png" style="width:4.52083in;height:1.46875in" />
+<img src="/images/anleitung_volume/22.png" style="width:6.52083in;height:3.46875in" />
 
 
 Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausgegeben werden. 
@@ -141,7 +141,7 @@ Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausge
 
    
       
-        
+Die Berechnung basiert auf folgendem Modell:       
         
 
 <div class="sketchfab-embed-wrapper"> <iframe title="model" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/97475298de2945a989f3c98c91e146b1/embed"> </iframe> </div>
