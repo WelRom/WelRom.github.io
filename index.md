@@ -137,7 +137,9 @@ Die Arbeitsschritte in CloudCompare waren nötig, damit die Dense Cloud gereinig
 Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausgegeben werden. 
 
 
-<img src="/images/anleitung_volume/24.png" style="width:4.52083in;height:1.46875in" />
+<img src="/images/anleitung_volume/24.png" style="width:6.52083in;height:2.46875in" />
+
+Folgendes Modell stellt die Grundlage der Berechnung dar:
 
 <div class="sketchfab-embed-wrapper"> <iframe title="model" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/97475298de2945a989f3c98c91e146b1/embed"> </iframe> </div>
 
