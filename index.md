@@ -121,9 +121,9 @@ Das Ergebnis zeigt die automatisch errechneten Bildpunkte mit den zwei Werteklas
 
 <img src="/images/anleitung_volume/25.png" style="width:3.72407in;height:2.30045in" />
 
-<img src="/images/anleitung_volume/image20.png" style="width:6.3in;height:0.51667in" />
+<img src="/images/anleitung_volume/image20.png" style="width:6.3in;height:4.51667in" />
 
-<img src="/images/anleitung_volume/image21.png" style="width:4.52083in;height:1.46875in" />
+<img src="/images/anleitung_volume/image21.png" style="width:6.52083in;height:1.46875in" />
 
 Diese kann dann zur weiteren Volumenberechnung als *.ply-Datei* gespeichert werden, um sie wieder in Agisoft einzuladen. Die Volumenberechnung ist theoretisch auch in CloudCompare durchführbar, allerdings ist die Erstellung des mesh sehr von empirischen Werten abhängig. Die Erstellung in Agisoft ist nach unserer Ansicht intuitiver. Nichts desto trotz ist der beschriebene Weg ebenfalls in CloudCompare möglich.
 
@@ -131,13 +131,13 @@ Diese kann dann zur weiteren Volumenberechnung als *.ply-Datei* gespeichert werd
 
 Die Arbeitsschritte in CloudCompare waren nötig, damit die Dense Cloud gereinigt und clean ist. Nun sind die störenden Bildpunkte soweit es geht entfernt worden und übrig bleibt die „raw Ruine“. Damit aus der Punktwolke ein geschlossenes Modell wird, dessen Volumen bestimmt werden kann wird zunächst ein Mesh erstellt. Anschließend müssen etwaige vorhandene Löcher mit *close holes* durch Interpolation geschlossen werden. Nun kann als letzter Schritt das Volumen errechnet werden:
 
-<img src="/images/anleitung_volume/22.png" style="width:4.52083in;height:1.46875in" />
+<img src="/images/anleitung_volume/22.png" style="width:6.52083in;height:4.46875in" />
 
 
 Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausgegeben werden. 
 
 
-<img src="/images/anleitung_volume/24.png" style="width:6.52083in;height:2.46875in" />
+<img src="/images/anleitung_volume/24.png" style="width:6.52083in;height:4.46875in" />
 
 Folgendes Modell stellt die Grundlage der Berechnung dar:
 
