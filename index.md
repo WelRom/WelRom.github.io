@@ -121,7 +121,7 @@ Das Ergebnis zeigt die automatisch errechneten Bildpunkte mit den zwei Werteklas
 
 <img src="/images/anleitung_volume/25.png" style="width:3.72407in;height:2.30045in" />
 
-<img src="/images/anleitung_volume/image20.png" style="width:2.3in;height:4.51667in" />
+<img src="/images/anleitung_volume/image20.png" style="width:2.3in;height:1.51667in" />
 
 <img src="/images/anleitung_volume/image21.png" style="width:2.52083in;height:1.46875in" />
 
