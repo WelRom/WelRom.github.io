@@ -9,14 +9,14 @@ Zunächst wurde die Frauenberg Ruine mit einer DJI Mini 2 händisch überflogen.
 
 # Optimierte Flugplanung via Agisoft und Litchi
 
-Hierfür wurde die Ruine wie in dem Screenshot zu sehen als *zone of interest* kategorisiert. Dies ist mit der Funktion möglich.
+Hierfür wurde die Ruine, wie in dem Screenshot zu sehen, als *zone of interest* kategorisiert. Dies ist mit der Funktion möglich:
 
 <img src="/images/anleitung_volume/image1.png" style="width:6.3in;height:3.43284in" />
 
 Im nächsten Schritt kann über den Reiter *Tools \>\> Plan Misson* ein Flugplan erstellt werden.
 
 Bei der Einstellung *Focus on interesting Zone* sollte das zuvor markierte und zu untersuchende Objekt ausgewählt werden. Die Kameraeinstellungen erkennt Agisoft automatisch auf Basis der vorhandenen Bilder. Die Einstellungen können hier übernommen werden, sofern für den nächsten Flug die gleiche UAV verwendet wird.  
-Es ist jedoch wichtig, je nach UAV, einen Sicherheitsabstand zum zu befliegenden Objekt einzustellen. Ohne RTK oder eine 360° Antikollisionssensorik findet sich bei der Recherche immer wieder die Empfehlung aufgrund von GPS Ungenauigkeiten einen Sicherheitsabstand von 10 Metern nicht zu unterschreiten. Auch das Relief, der Bewuchs, Überwuchs, Hochspannungsleitungen und Ähnliches sollten berücksichtigt werden, wobei die Limits an die jeweilige Situation angepasst werden, um Kollisionen beim automatisierten Flug zu vermeiden.
+Es ist jedoch wichtig, je nach UAV, einen Sicherheitsabstand zum zu befliegenden Objekt einzustellen. Ohne RTK oder eine 360° Antikollisionssensorik findet sich bei der Recherche immer wieder die Empfehlung, aufgrund von GPS Ungenauigkeiten, einen Sicherheitsabstand von 10 Metern nicht zu unterschreiten. Auch das Relief, der Bewuchs, Überwuchs, Hochspannungsleitungen und Ähnliches sollten berücksichtigt werden, wobei die Limits an die jeweilige Situation angepasst werden, um Kollisionen beim automatisierten Flug zu vermeiden.
 
 Je nach Bedarf können auch NoGo-Areale mit Hilfe der *Draw Polygon* Funktion deklariert werden.
 
@@ -30,7 +30,7 @@ In Litchi selbst können die Waypoints noch modifiziert werden. Vor allem der Ho
 
 Im Vergleich zu einer Flugplanung mit qGroundcontrol scheint Agisoft hier leicht überlegen, sobald es darum geht Flugplanungen an komplexen Objekten für 3D Modelle durchzuführen.
 
-Die Waypoints haben auf Basis der trigonometrisch berechneten optimalen Position für die Kamera bereits mehrere Actions wie: „*Take Photo, Rotate Aircraft, Tilt Camera, Take Photo“,* bevor der nächste Waypoint angeflogen wird.
+Die Waypoints haben, auf Basis der trigonometrisch berechneten optimalen Position, für die Kamera bereits mehrere Actions wie: „*Take Photo, Rotate Aircraft, Tilt Camera, Take Photo“,* bevor der nächste Waypoint angeflogen wird.
 
 <img src="/images/anleitung_volume/image4.png" style="width:6.3in;height:3.11998in" />
 
@@ -119,7 +119,7 @@ Nun wird für alle Bildpunkte der Wert des vorher definierten Filters errechnet.
 
 Das Ergebnis zeigt die automatisch errechneten Bildpunkte mit den zwei Werteklassen. Diese werden zur besseren Sichtbarkeit in kontrastreichen Farben abgebildet. Durch eine abschließende Extraktion der Bildpunkte mit dem vorher festgelegten, bestimmten Wert erhält man die endgültige Punktwolke.
 
-<img src="/images/anleitung_volume/25.png" style="width:6.72407in;height:2.30045in" />
+<img src="/images/anleitung_volume/25.png" style="width:3.72407in;height:2.30045in" />
 
 <img src="/images/anleitung_volume/image20.png" style="width:6.3in;height:0.51667in" />
 
@@ -131,18 +131,13 @@ Diese kann dann zur weiteren Volumenberechnung als *.ply-Datei* gespeichert werd
 
 Die Arbeitsschritte in CloudCompare waren nötig, damit die Dense Cloud gereinigt und clean ist. Nun sind die störenden Bildpunkte soweit es geht entfernt worden und übrig bleibt die „raw Ruine“. Damit aus der Punktwolke ein geschlossenes Modell wird, dessen Volumen bestimmt werden kann wird zunächst ein Mesh erstellt. Anschließend müssen etwaige vorhandene Löcher mit *close holes* durch Interpolation geschlossen werden. Nun kann als letzter Schritt das Volumen errechnet werden:
 
-<img src="/images/anleitung_volume/22.png" style="width:6.52083in;height:3.46875in" />
+<img src="/images/anleitung_volume/22.png" style="width:4.52083in;height:1.46875in" />
 
 
 Abschließen kann mit unter *Tools >> Measure Area and Volume* das Volumen ausgegeben werden. 
 
 
-<img src="/images/anleitung_volume/24.png" style="width:6.52083in;height:3.46875in" />
-
-   
-      
-Die Berechnung basiert auf folgendem Modell:       
-        
+<img src="/images/anleitung_volume/24.png" style="width:4.52083in;height:1.46875in" />
 
 <div class="sketchfab-embed-wrapper"> <iframe title="model" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/97475298de2945a989f3c98c91e146b1/embed"> </iframe> </div>
 
@@ -150,7 +145,7 @@ Die Berechnung basiert auf folgendem Modell:
 
 
 
-# Tipps für erfolgreiche Durchführung
+# Tipps für eine erfolgreiche Durchführung
 
 Besondere Probleme bei der Erstellung einer geeigneten Pointclound sind durch Schattenwurf und windige Verhältnisse aufgetreten. Bei dispersen Lichtverhältnisse und minimalem Wind sollte sohin geflogen werden. Hierdurch wird die Berechnung der Pointcloud deutlich homogener, was die anschließende Volumenberechnung stark vereinfacht.
 
